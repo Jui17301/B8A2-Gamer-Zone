@@ -20,7 +20,7 @@ main,header{
 .btn-secondary{
   background-color:#4EC5F7; 
 }
-.span-gradient-letter,.gamer-title{
+.span-gradient-letter,.gamer-title,.funny-title{
   font-size: 30px !important;
   font-weight: 800;
 background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -95,6 +95,22 @@ color:#534C64
   font-size: 20px;
   color: #534C64;
 }
+.videos{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 10px;
+}
+
+.online-game{
+  text-align: center;
+  gap: 10px;
+  
+}
+.online-game>div>div>p{
+  color:#534C64;
+  font-size: 12px;
+}
 
 
 
@@ -158,5 +174,12 @@ color:#534C64
   }
   .gamer img{
     width: 100%;
+  }
+  .videos{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
   }
  }
