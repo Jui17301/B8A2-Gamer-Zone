@@ -1,0 +1,123 @@
+/* Shared Styles */
+
+*{
+ 
+ font-family: "Work Sans", sans-serif;
+}
+.btn-primary,.btn-secondary{
+  background-color:rgb(246, 9, 136);
+  border-radius: 50px;
+  padding: 10px 30px;
+  font-weight: 700;
+  border: none;
+  color:#FFF;
+  justify-content: center;
+  align-items: center;
+}
+.btn-secondary{
+  background-color:#4EC5F7; 
+}
+.span-gradient-letter{
+  font-size: 30px !important;
+  font-weight: 800;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+/* nav section */
+.header-nav-section{
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav-section-left{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header-nav-section-right>ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.header-nav-section-right li{
+  list-style: none;
+}
+a{
+  color: #3C354F;
+  text-decoration: none;
+text-align: center;
+font-size: 18px;
+font-weight: 500;
+}
+ .youtube{
+  color:red;
+ }
+ /* banner style started */
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner img{
+  width: 50%;
+}
+.banner p{
+  font-size: 18px;
+font-weight: 500;
+color:#534C64
+}
+
+
+
+
+
+/* footer styles */
+.footer{
+  background-color: #0B0223;
+  text-align: center;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+  
+}
+.footer-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:15px
+}
+.footer-description ul{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 10px;
+  margin-top: 30px;
+
+}
+.footer-description>ul>li{
+  list-style: none;
+}
+
+
+ /* media query for mobile screen */
+ @media screen and (max-width:576px) {
+  .header-nav-section,.header-nav-section-right>ul{
+    flex-direction: column;
+
+  }
+  .header-nav-section-left{
+    justify-content: center;
+  }
+  .banner{
+    flex-direction: column-reverse;
+  }
+  .banner-content{
+    text-align: center;
+  }
+ }
