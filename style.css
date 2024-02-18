@@ -103,7 +103,7 @@ color:#534C64
 .footer-description>ul>li{
   list-style: none;
 }
-
+/* footer styles ends */
 
  /* media query for mobile screen */
  @media screen and (max-width:576px) {
